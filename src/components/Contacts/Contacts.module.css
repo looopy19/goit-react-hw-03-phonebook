@@ -1,0 +1,41 @@
+
+.search__contact {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 7px 5px 7px 5px;
+  max-width: 100%;
+}
+
+.search__contact:not(:last-child) {
+  margin-bottom: 3px;
+  border-bottom: 1px solid gray;
+}
+
+.search__label {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+.list {
+  width: 400px;
+  max-width: 100%;
+  background-color: rgba(251, 251, 251, 0.9);
+  margin-top: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+
+
+
+
+.trash:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  
+}
